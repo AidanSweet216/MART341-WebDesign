@@ -1,0 +1,3 @@
+1. a directory is a system on computers for keeping track of and accessing files on that computer
+2.a VCS is a way to preserve versions of files for future use. They are useful because you can use a VCS to backup and save your files onto a server through an application like Github so that you can access them incase the files on your local system are comprimised.
+3. My favorite artisitic medium is music. Music is a medium that can transend barriers such as language and be enjoyed be anyone. I mostly listen to classical music which is a kind of music in which orchestras are playing songs that were written hundreds of years ago and I think there is something very beautiful that these works are still able to be enjoyed by people today.
