@@ -1,0 +1,29 @@
+body {
+    background-color: #443535;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+div {
+    border: 5px solid #AB4730;
+    display: inline-block;
+ 
+   
+}
+
+img {
+    border-radius: 25%;
+    border: 5px solid #F7F5F3;
+}
+
+.inspiration {
+    background-color: #9798A2;
+    display:ruby;
+}
+
+#header {
+    color: #F7F5F3;
+    font-size: large;
+    border-radius: 15%;
+    background-color: #928280;
+    
+}
