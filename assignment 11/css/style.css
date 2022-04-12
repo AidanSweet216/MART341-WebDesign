@@ -1,0 +1,52 @@
+#header{
+    background-image: url("../images/guts.jpg");
+    width: 1920px;
+ 
+}
+h1{
+    color: maroon;
+    font-family: PTSerif ;
+    font-size: 100px;
+    
+}
+.border{
+    height: 200px;
+    background-color: #523F38;
+    color: #523F38;
+}
+#title:hover{
+    letter-spacing: 1em;
+    font-weight: 900;
+}
+
+.border:hover{
+background-color: #CEAB91;
+color: #523F38;
+font-size: 50px;
+font-family: PTSerif;
+}
+
+body{
+    background-color: #3F3F4B;
+    text-align: center;
+}
+
+.paragraph{
+    background-color: #FFFFFF;
+    margin: auto;
+    color: #3F3F4B;
+    font-family: PTSerif;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 750px;
+}
+.paragraph::first-line{
+    font-size: 50px;
+    line-height: 45px;
+    font-family: Rowdies;
+}
+
+img{
+    border: 20px solid maroon;
+    
+}
