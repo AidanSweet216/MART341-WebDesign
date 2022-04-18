@@ -1,0 +1,134 @@
+#header{
+    background-image: url("../images/guts.jpg");
+    width: 1920px;
+ 
+}
+h1{
+    color: maroon;
+    font-family: PTSerif ;
+    font-size: 100px;
+    
+}
+.border{
+    height: 200px;
+    background-color: #523F38;
+    color: #523F38;
+}
+#title:hover{
+    letter-spacing: 1em;
+    font-weight: 900;
+}
+
+.border:hover{
+background-color: #CEAB91;
+color: #523F38;
+font-size: 50px;
+font-family: PTSerif;
+}
+
+body{
+    background-color: #3F3F4B;
+    text-align: center;
+}
+
+.paragraph{
+    background-color: #FFFFFF;
+    margin: auto;
+    color: #3F3F4B;
+    font-family: PTSerif;
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 750px;
+}
+.paragraph::first-line{
+    font-size: 50px;
+    line-height: 45px;
+    font-family: Rowdies;
+}
+
+img{
+    border: 20px solid maroon;
+    
+}
+
+header{
+    position: fixed;
+   background-color: #3F3F4B;
+    width: 100%;
+    height: 5em;
+    top: 0px;
+    font-family: Rowdies;
+    text-align: right;
+}
+
+.site-name{
+    margin: 1em .2em;
+    min-width: 5em;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    letter-spacing: 0.5em;
+    float: left;
+    font-weight: bolder;
+    font-family: PTSerif ;
+    color: black;
+}
+
+.menu-item{
+display: inline-block;
+margin: 1em  .2em;
+background-color: maroon;
+padding: .5em 1em;
+border-radius: 20%;
+min-width: 5%;
+text-align: center;
+
+}
+.menu-item:hover{
+    background-color: #3F3F4B;
+    color: #FFFFFF;
+}
+.menu-item a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    background-color: maroon;
+    color:white;
+    z-index: 1;
+    border-radius: 0em 0em 2em 2em;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    color: white;
+}
+
+.dropdown-item{
+    display: block;
+    text-align: center;
+    margin:  0;
+    padding: .5em 1em 0.5em 1em;
+    min-width: 6em;
+ 
+    
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    background-color: #3F3F4B;
+    color: #FFFFFF;
+}
+
+
+.dropdown:hover{
+    border-radius: 1em 1em 0em 0em;
+}
