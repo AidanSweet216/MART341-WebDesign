@@ -1,0 +1,132 @@
+header{
+    position: relative;
+   background-color: #3F3F4B;
+    width: 100%;
+    height: 5em;
+    top: 0px;
+    font-family: Rowdies;
+    text-align: right;
+}
+body{
+    background-image: url("../images/forest.jpg");
+}
+.home-img{
+    border: 20px solid maroon;
+    display: inline-block;
+}
+img{
+height: 700px;
+width: 700px;
+}
+.img-icon{
+    width:85px;
+    height: 85px;
+}
+.model{
+    position: relative;
+    top: 20px;
+    width: 750px;
+    height: 480px;
+    border: 20px solid maroon;
+    display: inline-block;
+}
+.model2{
+    position: relative;
+    top: 20px;
+    left:1000px;
+    width: 800px;
+    height: 480px;
+    border: 20px solid maroon;
+    display: inline-block;
+}
+.about{
+    position: relative;
+    font-size: 25px;
+    margin: auto;
+    width:50%;
+    left: 300px;
+    top: 300px;
+    text-align: center;
+    font-family: PTSerif;
+    color: #FFFFFF;
+}
+.description-text{
+    position: relative;
+    font-size: 25px;
+    margin: auto;
+    width:50%;
+    text-align: center;
+    font-family: PTSerif;
+    color: #FFFFFF;
+}
+.site-name{
+    margin: 1em .2em;
+    min-width: 5em;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    letter-spacing: 0.5em;
+    float: left;
+    font-weight: bolder;
+    font-family: PTSerif ;
+    color: black;
+}
+.menu-item{
+    display: inline-block;
+    margin: 1em  .2em;
+    background-color: maroon;
+    padding: .5em 1em;
+    border-radius: 20%;
+    min-width: 5%;
+    text-align: center;
+    
+    }
+    .menu-item:hover{
+        background-color: #9e9ebe;
+        color: #FFFFFF;
+    }
+    .menu-item a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .dropdown{
+        display: inline-block;
+    }
+    
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        margin: 0.5em 0 0 -1em;
+        background-color: maroon;
+        color:white;
+        z-index: 1;
+        border-radius: 0em 0em 2em 2em;
+    }
+    
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    
+    .dropdown-content a{
+        color: white;
+    }
+    
+    .dropdown-item{
+        display: block;
+        text-align: center;
+        margin:  0;
+        padding: .5em 1em 0.5em 1em;
+        min-width: 6em;
+     
+        
+    }
+    .dropdown-item:hover, .dropdown-item:hover a {
+        background-color: #3F3F4B;
+        color: #FFFFFF;
+    }
+    
+    
+    .dropdown:hover{
+        border-radius: 1em 1em 0em 0em;
+    }
+    
