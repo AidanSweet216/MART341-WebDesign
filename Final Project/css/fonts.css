@@ -1,0 +1,10 @@
+@font-face {
+    font-family:'PTSerif';
+    src: url('../fonts/PTSerif-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family:'Rowdies';
+    src: url('../fonts/Rowdies-Regular') format('truetype');
+    font-style: normal;
+}
