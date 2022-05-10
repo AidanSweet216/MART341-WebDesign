@@ -7,11 +7,12 @@
 
     <meta charset="UTF-8">
 
-    <meta name="description" content="Website for experimenting with fonts in css">
+    <meta name="description" content="Home page for my portfolio website">
 
     <meta name="author" content="Aidan Sweet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="en-us">
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
@@ -20,6 +21,7 @@
 
     <body>
         <header>
+         
             <div class="site-name">
                 Aidan Sweet's Portfolio
             </div>
@@ -35,22 +37,27 @@
             <div class = "menu-item">
                 <a href="mobile.html">Mobile Game</a>
             </div>
+            
         </header>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h1 class="about">
-            About
-          </h1>
-          <p class="about">
-            Aidan Sweet is a Game Design student at the University of Montana in Missoula, MT. Some projects that he has worked on so far include an interactive touchscreen game for the Wall Project in the University Center Game Den, he worked as part of the development team for the prototype of a virtual tour mobile application for the university called "Griz Tracks", he is also currently developing a 2D mobile game made in the Unity Engine, and a 3D horror game also made in Unity called "Lost In The Woods". Aidan is also currently learning to create 3D models using the 3D modeling software, Blender.
-          </p>
-        <div class="home-img">
-            <img src="./images/me.jpg" alt="A picture of myself" id="img-link">
+        <!-- I removed your break elements, because they were shifting your content down.
+        
+        Next, I've added in another div to wrap all your content in, your picture and 'about' text included, on lines 46 and 58. I've assigned a class to this div called grid-container, and in your css stylesheet, I've chosen to display this div as a grid (see lines 1-6 on your style.css page). This is because it's much easier to put your content side by side into columns effectively when you choose to display something as a CSS grid. It also makes it easier to format your page to look good on mobile, which you'll need to do for your website before turning in your final project!
+    
+        Any child div elements that you put inside of a div you've labeled as a grid container will automatically be treated as a section / entry of that grid. Your img was already in a div, so I didn't need to add one, but I also added in a div around your text content, too. 
+    
+        Finally, I moved your img up to go *before* your about text, since you wanted it placed on the left, not the right. -->
+        <div class="grid-container">
+            <div class="home-img">
+                <img src="./images/me.jpg" alt="A picture of myself" id="img-link" />
+            </div>
+            <div>
+                <h1 class="about">
+                    About
+                </h1>
+                <p class="about">
+                    Aidan Sweet is a Game Design student at the University of Montana in Missoula, MT. Some projects that he has worked on so far include an interactive touchscreen game for the Wall Project in the University Center Game Den, he worked as part of the development team for the prototype of a virtual tour mobile application for the university called "Griz Tracks", he is also currently developing a 2D mobile game made in the Unity Engine, and a 3D horror game also made in Unity called "Lost In The Woods". Aidan is also currently learning to create 3D models using the 3D modeling software, Blender.
+                </p>
+        </div>
         </div>
         
     </body>

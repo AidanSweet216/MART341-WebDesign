@@ -1,3 +1,36 @@
+/* I am using a class selector now to choose to display all the content of the grid-container div as a grid 
+The next line is a way for me to tell the browser how many columns I want. I want two, so I just wrote 'auto' twice -- if you wanted your text to take up 30% of the screen but your image 70%, you could write 70% and 30% instead. You could write one auto for one column, or three autos for three columns, so on and so forth. If you're interested in learning more about how to style grids, check out the w3 schools page on it!*/
+/*desktop*/
+@media only screen and (min-width:768px){
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+}
+/*mobile*/
+@media only screen and (max-width:768px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    header{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        position: relative;
+       background-color: #3F3F4B;
+        width: 100%;
+        height: 5em;
+        top: 0px;
+        font-family: Rowdies;
+        text-align: right;
+        
+    }
+
+}
+
+
 header{
     position: relative;
    background-color: #3F3F4B;
@@ -6,22 +39,28 @@ header{
     top: 0px;
     font-family: Rowdies;
     text-align: right;
+    
 }
+
 body{
     background-image: url("../images/forest.jpg");
 }
+
 .home-img{
     border: 20px solid maroon;
     display: inline-block;
 }
+
 img{
 height: 700px;
 width: 700px;
 }
+
 .img-icon{
     width:85px;
     height: 85px;
 }
+
 .model{
     position: relative;
     top: 20px;
@@ -30,26 +69,27 @@ width: 700px;
     border: 20px solid maroon;
     display: inline-block;
 }
+
 .model2{
     position: relative;
-    top: 20px;
+    top: -200px;
     left:1000px;
     width: 800px;
     height: 480px;
     border: 20px solid maroon;
-    display: inline-block;
+    display: grid;
 }
+
+/* I removed the width property, because by separating your page into 2 columns, it will already take up half the screen. I removed margin, since the grid will also take care of that. Finally, I removed position, left, and top, because now the position is determined by the grid. */
 .about{
-    position: relative;
     font-size: 25px;
-    margin: auto;
-    width:50%;
-    left: 300px;
-    top: 300px;
     text-align: center;
     font-family: PTSerif;
     color: #FFFFFF;
+
 }
+
+
 .description-text{
     position: relative;
     font-size: 25px;
@@ -68,7 +108,7 @@ width: 700px;
     float: left;
     font-weight: bolder;
     font-family: PTSerif ;
-    color: black;
+    color:#FFFFFF;
 }
 .menu-item{
     display: inline-block;
@@ -129,4 +169,3 @@ width: 700px;
     .dropdown:hover{
         border-radius: 1em 1em 0em 0em;
     }
-    
